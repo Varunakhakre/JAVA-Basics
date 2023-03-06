@@ -1,0 +1,181 @@
+/* 1 In a program, input 3 numbers : A, B and C. You have to output the average of
+these 3 numbers.*/
+import java.util.*;
+class basics{
+    public static void main(String[]args) {
+    Scanner sc= new Scanner(System.in);
+    System.out.println("enter");
+    int n = sc.nextInt();
+    
+/*   int A=sc.nextInt();
+    int B=sc.nextInt();
+    int C=sc.nextInt();
+    int avg= (A+B+C)/3;
+    System.out.println(avg);
+2 In a program, input the side of a square. You have to output the area of the
+square. 
+    System.out.println("enter side");
+    int side=sc.nextInt();
+    int area=side*side;
+    System.out.println(area);
+3 Enter cost of 3 items from the user (using float data type) - a pencil, a pen and
+an eraser. You have to output the total cost of the items back to the user as their bill.
+    float pencil=sc.nextFloat();
+    float pen=sc.nextFloat();
+    float eraser=sc.nextFloat();
+    float bill=pencil+pen+eraser;
+    System.out.println(bill);
+        
+    byte b= 4;
+    char c='a';
+    short s= 512;
+    float f=3.14f;
+    int i=1000;
+    double d=99.9954;
+    System.out.println("result="+((f*b)+(i%c)-(d*s))); 
+
+4 Write a Java program to get a number from the user and print whether it is
+positive or negative.
+    int num=sc.nextInt();
+    if(num>0){
+        System.out.println("Positive");
+    }
+    else{
+        System.out.println("Negative");
+    }
+5 write a code so that it prints You have a fever if your temperature
+is above 100 and otherwise printsYou don't have a fever.
+    double temp = 103.5;
+    if(temp>100){
+        System.out.println("You have a fever");
+    }
+    else{
+        System.out.println("You don't have a fever");
+    }
+6 Write a Java program to input week number(1-7) and print day of week name
+using switch case.
+    int weekDays = sc.nextInt();
+    switch (weekDays) {
+            case 1: System.out.println("Sunday");
+            break;
+            case 2: System.out.println("Monday");
+            break;
+            case 3: System.out.println("Tuesday");
+            break;
+            case 4: System.out.println("Wednesday");
+            break;
+            case 5: System.out.println("Thrusday");
+            break;
+            case 6: System.out.println("Friday");
+            break;
+            case 7: System.out.println("Saturday");
+            break;
+        default: System.out.println("a day");
+            break;
+    }
+7 Write a Java program that takes a year from the user and print whether that
+year is a leap year or not.
+    int year= sc.nextInt();
+    if(year%400==0||(year%4==0&&year%100!=0)){
+        System.out.println("leap year");
+    }
+    else{
+        System.out.println("not a leap year");
+    }
+8 Write a program that reads a set of integers, and then prints the sum of the
+even and odd integers. 
+    int evenSum=0;
+    int oddSum=0;
+    
+    System.out.println("hi");
+    while(num<20){
+        if(num%2==0){
+            evenSum+=num;
+        }
+        else{
+            oddSum+=num;
+        }
+        num++;
+    };
+    int sum=evenSum+oddSum;
+    System.out.println(sum);
+9 Write a program to find the factorial of any number entered by the user.
+    
+    int fact=1;
+    do{
+        fact=num*fact;
+        num--;
+    }while(num>1);
+    System.out.println(fact);
+10 Write a program to print the multiplication table of a number N, entered by the
+user.
+    int n=sc.nextInt();
+    for(int i=0;i<=10;i++){
+        System.out.println(n+"*"+i+"="+n*i);
+    }
+11 Write a Java method to compute the average of three numbers
+    public static int average(int n1,int n2, int n3){
+       
+        int average=(n1+n2+n3)/3;
+        return average;
+    }
+    
+12 Write a method named isEven that accepts an int argument. The method
+should return true if the argument is even, or false otherwise. Also write a program to test your
+method.
+    public static boolean isEven(int n) {
+        if(n%2==0){
+            return true;
+        }
+        return false;
+    }
+    public static void main(String[]args) {
+        
+        System.out.println(isEven(44));
+    }
+13 Write a Java program to check if a number is a palindrome in Java? ( 121 is a
+palindrome, 321 is not)
+    int num=sc.nextInt();
+    int n=num;
+    double rev=0;
+    while(n!=0)
+    { double i=0;
+    int r=n%10;
+    n/=10;
+    rev=r+(rev*10);
+    i++;}
+    if(num==rev){
+        System.out.println("true");
+        }
+        else{
+    System.out.println("false");}
+14 Write a Java method to compute the sum of the digits in an integer.
+    
+    public static int sumDigi(int n) {
+        int sum=0;
+        while(n!=0){
+            int num=n;
+            sum=sum + n%10;
+            n/=10;
+        }
+        return sum;
+    }
+        public static void main(String[]args) {
+            Scanner sc= new Scanner(System.in);
+            System.out.println("enter");
+            int num=sc.nextInt();
+            System.out.println(sumDigi(num));
+    }
+15 PATTERN 
+  for(int i=1;i<=n;i++)
+  {
+    for(int j=1;j<=i;j++){
+        System.out.print("|");
+    }
+    System.out.println();
+  }
+}
+}
+*/
+
+
